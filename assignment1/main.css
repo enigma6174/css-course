@@ -1,0 +1,45 @@
+body {
+  font-family: sans-serif;
+}
+
+#assignment-instructions {
+  color: rgb(54, 54, 136);
+  font-family: sans-serif;
+}
+
+code {
+  font-family: monospace;
+  color: red;
+}
+
+.code {
+  color: green;
+}
+
+li {
+  font-family: inherit;
+}
+
+/* Select all list items except the first one */
+/* li + li  {
+  background: black;
+  color: white;
+} */
+
+/* Select all list items except the first one */
+/* li ~ li {
+  background: black;
+  color: white;
+} */
+
+/* Select all list items except the first two items */
+/* li + li + li {
+  background: black;
+  color: white;
+} */
+
+/* Select all list items except the first one */
+/* li ~ li ~ li {
+  background: black;
+  color: white;
+} */
