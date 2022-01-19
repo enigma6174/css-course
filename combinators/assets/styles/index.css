@@ -1,0 +1,54 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+/* Adjacent sibling */
+/* First and second elements share the same parent */
+/* Second element comes immediately after first element */
+/* h2 + p {
+  background: rgb(211, 28, 28);
+  color: white;
+  font-weight: 600;
+} */
+
+/* General sibling */
+/* Elements share the same parent */
+/* Second element comes after first element */
+/* h2 ~ p {
+  background: rgb(211, 28, 28);
+  color: white;
+  font-weight: 600;
+} */
+
+/* Direct child  */
+/* Second element is a direct child of the first element */
+/* h2 > p {
+  color: red;
+  font-weight: 600;
+} */
+
+/* div > p {
+  background: rgb(211, 28, 28);
+  color: white;
+  font-weight: 600;
+} */
+
+/* div ~ h2 {
+  background: rgb(211, 28, 28);
+  color: white;
+  font-weight: 600;
+} */
+
+/* main > h2 {
+  background: rgb(211, 28, 28);
+  color: white;
+  font-weight: 600;
+} */
+
+/* Descendant  */
+/* Second element is a descendant of the first element */
+/* body h2 {
+  background: rgb(211, 28, 28);
+  color: white;
+  font-weight: 600;
+} */
